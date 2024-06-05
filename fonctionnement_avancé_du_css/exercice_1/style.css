@@ -1,0 +1,20 @@
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul, ol {
+    color: green;
+    font-size: 20px;
+}

@@ -1,0 +1,90 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    background: #f2f2f2;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 450px;
+    padding: 0 30px 0 0;
+}
+
+img {
+    margin: 40px 0 0 30px;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 30px 0 0 35px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffffbf;
+    line-height: 25px;
+    margin: 30px 0 0 30px;
+}
+
+button {
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    margin: 40px 0 0 30px;
+}
+
+.button-box-1 {
+    color: #e38826;
+}
+
+.button-box-1:active {
+    color: #ffffff;
+    background: #e38826;
+}
+
+.button-box-2 {
+    color: #006970;
+}
+
+.button-box-2:active {
+    color: #ffffff;
+    background: #006970;
+}
+
+.button-box-3 {
+    color: #004241;
+}
+
+.button-box-3:active {
+    color: #ffffff;
+    background: #004241;
+}
+
+.box-1 {
+    background: #e38826;
+    border-radius: 10px 0 0 10px;
+}
+
+.box-2 {
+    background: #006970;
+}
+
+.box-3 {
+    background: #004241;
+    border-radius: 0 10px 10px 0;
+}

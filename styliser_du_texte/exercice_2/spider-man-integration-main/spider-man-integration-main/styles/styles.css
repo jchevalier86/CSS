@@ -1,0 +1,75 @@
+/* VOTRE CODE CSS DOIT ETRE ECRIT DANS CE FICHIER */
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("../images/bg-spider.png");
+}
+
+a {
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 19.2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline 3px;
+}
+
+q {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 4px 4px darkred, -3px -3px darkblue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    word-spacing: 20px;
+}
+
+h1:hover {
+    text-shadow: 5px 5px darkred, -3.5px -3.5px darkblue;
+}
+
+.text-the {
+    font-family : "Freehand", cursive;
+    text-transform: lowercase;
+    font-size: 64px;
+    letter-spacing: 0.8px;
+}
+
+.text-amazing {
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+.text-spider-man {
+    font-size: 130px;
+}
+
+.tagline {
+    font-weight: 400;
+    word-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
